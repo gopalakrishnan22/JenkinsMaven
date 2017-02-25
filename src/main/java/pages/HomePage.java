@@ -11,7 +11,7 @@ public class HomePage extends WebStoreWrappers{
 		this.driver = driver; 
 		this.test = test;
 		if(!verifyTitle("TestLeaf - User Profile"))
-			reportStep("This is not Home Page of Web Store - Updated by Babu & Indhu", "FAIL");
+			reportStep("This is not Home Page of Web Store - Updated by Babu and Gopi", "FAIL");
 
 	}
 
