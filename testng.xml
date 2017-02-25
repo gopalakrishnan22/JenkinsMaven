@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WebStore" parallel="classes" thread-count="3" verbose="5">
+	<!-- <groups>
+		<run>
+			<include name="common"></include>
+			<include name="smoke"></include>
+		</run>
+	</groups> -->
+	<test name="Leads">
+		<classes>
+			<class name="testcases.TC001_Login" />
+			<class name="testcases.TC002_LoginFailure" /> 
+			<class name="testcases.TC003_Registration" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
